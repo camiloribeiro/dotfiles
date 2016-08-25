@@ -1,0 +1,12 @@
+[user]
+	name = Camilo Ribeiro
+	email = camilo@camiloribeiro.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short

@@ -1,0 +1,11 @@
+*
+!.vim
+!.vim/*
+!.vim/*/**/*
+!.gitignore
+!.vimrc
+!.gitconfig
+!.config/
+!.config/flake8
+!.config/pep8
+.vim/.netrwhist
