@@ -1,10 +1,11 @@
 set nocp
 call pathogen#infect()
 filetype off
-syntax on
+syntax enable
 filetype plugin indent on
 let mapleader = ","
 
+set background=dark
 set backspace=indent,eol,start 
 set fileformats=unix,dos,mac 
 set hidden 
@@ -25,8 +26,15 @@ set softtabstop=2
 
 set smartindent
 
-colorscheme desert
-set bg=dark
+let g:solarized_termcolors   = 16
+let g:solarized_termtrans    = 1
+let g:solarized_degrade      = 1
+let g:solarized_bold         = 1
+let g:solarized_underline    = 1
+let g:solarized_italic       = 1
+let g:solarized_contrast     = "normal"
+let g:solarized_visibility   = "normal"
+colorscheme solarized
 
 set hlsearch
 
