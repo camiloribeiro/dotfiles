@@ -36,6 +36,12 @@ let g:solarized_contrast     = "normal"
 let g:solarized_visibility   = "normal"
 colorscheme solarized
 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+set t_Co=16
+set laststatus=2
+set ttimeoutlen=50
+
 set hlsearch
 
 set cursorline
