@@ -5,6 +5,7 @@ syntax enable
 filetype plugin indent on
 let mapleader = ","
 
+set relativenumber
 set background=dark
 set backspace=indent,eol,start 
 set fileformats=unix,dos,mac 
