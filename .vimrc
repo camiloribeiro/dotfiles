@@ -5,6 +5,11 @@ syntax enable
 filetype plugin indent on
 let mapleader = ","
 
+map ^[OA <up>
+map ^[OB <down>
+map ^[OC <right>
+map ^[OD <left>
+
 set relativenumber
 set background=dark
 set backspace=indent,eol,start 
@@ -69,5 +74,5 @@ map <down>  <NOP>
 if ! has('gui_running')
   let g:CommandTCancelmMap    = ['<ESC>','<C-c>']
   let g:CommandTSelectNextMap = ['<C-n>','<C-j>','<ESC>OB']
-  let g:CommandTSelectPrevMap = ['<C-p>','<C-k>','<ESC>OA>']
+  let g:CommandTSelectPrevMap = ['<C-p>','<C-k>','<ESC>OA']
 endif
