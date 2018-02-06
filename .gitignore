@@ -1,6 +1,7 @@
 *
 !README.md
 !.vim
+!.iterm2/**
 !.rbenv
 !.vim/*
 !.vim/*/**/*
