@@ -2,7 +2,7 @@
 !README.md
 !.zshrc
 !.vim
-!.iterm2/**
+!.iterm2/com.googlecode.iterm2.plist
 !.rbenv
 !.vim/*
 !.vim/*/**/*
