@@ -2,12 +2,19 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+#
 export ZSH=/Users/camilor/.oh-my-zsh
+source /Users/camilor/google-cloud-sdk/path.zsh.inc
+source /Users/camilor/google-cloud-sdk/completion.zsh.inc
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin:/Applications/CMake.app/Contents/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="agnoster"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -60,6 +67,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 git
+docker
 python
 bundler
 dotenv
